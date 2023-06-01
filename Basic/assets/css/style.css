@@ -1,0 +1,220 @@
+.csscolor1{
+    background-color: teal;
+   
+}
+.csscolor2{
+    background-color:#008080;
+    
+}
+.csscolor3{
+    background-color:grey;
+   
+}
+.commoncsscolor{
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+/*p7.html*/
+.jumbotron{
+    background-color: pink;
+    border-radius: 20px;
+}
+.cssFont{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: itallic;
+    font-weight: bold;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+.cssText{
+    text-align: justify;
+    line-height: 2;
+    letter-spacing: 2px;
+    word-spacing: 20px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.cssText>p{
+    text-indent: 100px;
+}
+/*p8.html*/
+.navBar{
+    background-color: #008080;
+}
+.navBar>ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    float: right;
+}
+.navBar>ul>li{
+    display: inline-block;
+    padding: 20px;
+}
+.navBar>ul>li:hover{
+    background-color:white;
+}
+.navBar>ul>li>a{
+    color:black;
+}
+.navBar>img{
+    height: 54px;
+}
+.list-marker-position>ol>li{
+    background-color:#090;
+    padding: 20px;
+   margin-bottom: 20px;
+    list-style-position: inside;
+    border-radius: 30px;
+}
+.list-marker-position>ol>li::marker{
+    background-color: darkblue;
+    font-size: larger;
+    font-weight: bolder;
+}
+.list-icon>ul>li{
+ margin-bottom: 20px;
+ list-style-image: url(../image/pin.png);
+}
+.list-shorthand>ul>li{
+    background-color: teal;
+    padding: 20px;
+    margin: 20px;
+    color: #009999;
+
+    /*list-style-type:none;
+    list-style-position:inside;
+    list-style-image:url();*/
+
+    list-style: none inside url(../image/pin.png);
+    
+}
+/*p9.html*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navBar{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-image: linear-gradient(#242424,black);
+    opacity: 86%;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+
+}
+.nav>ul>li{
+    display: inline-block;
+    list-style: none;
+}
+/*p9.html*/
+.empty-cell-table{
+    color: #009999;
+    empty-cells: hide;
+}
+
+
+.layout-table{
+    width: 10%;
+    table-layout: auto;
+}
+.layout-table td,.layout-table th{
+    overflow: scroll;
+}
+.odd-even-table{
+    background-color: #090;
+    border-collapse: collapse;
+
+}
+.odd-even-table td,.odd-even-table th{
+    font-size: 1.5rem;
+
+}
+.odd-even-table tr:nth-child(even){
+    background-color: #009999;
+}
+.odd-even-table tr{
+    background-color: #242424;
+}
+.odd-even-table td,.odd-even-table th{
+    border: 2px solid white;
+    color: #fff;
+    padding: 10px;
+}
+/*p12.html*/
+header{
+    background-color:grey;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+ header>nav>img{
+    width: 100px;
+    height: 100px;
+    border-radius: 70px;
+    border:4px solid #fff;
+}
+nav>ul{
+    float: right;
+    margin-top:40px;
+}
+nav>ul>li{
+    display: inline-block;
+}
+nav>ul>li>a{
+    font-size: 2em;
+    padding: 20px;
+    color: #ffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    transition: 0.7s;
+    border-radius: 50px;
+
+
+}
+nav>ul>li>a:hover{
+    color:#242424;
+    font-weight: bolder;
+    background-color: aliceblue;
+}
+
+.banner1{
+    background-color:grey ;
+}
+.bannercommonclass{
+    color: grey;
+    padding: 30px;
+    height: 300px;
+    text-align: center;
+
+}
+.bannercommonclass>h1{
+    font-size: 50px;
+}
+.bannercommonclass>h1:hover{
+    color: #242424;
+}
+.banner2{
+  background-image: url(../image/logo\ lion.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 150vh;
+
+
+
+}

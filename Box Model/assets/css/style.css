@@ -1,0 +1,79 @@
+/*Title Code*/
+.jumbotron{
+    background-color: grey;
+    padding: 20px;
+    margin: 20px;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+/*common code*/
+.csspadding>h1{
+    background-color:blueviolet;
+    color:black;
+    border-radius: 5px;
+}
+.csspadding>h1:nth-child(1){
+   padding: 50px;/*apply for all sides*/
+}
+.csspadding>h1:nth-child(2){
+    padding: 25px 75px;/*apply only for vertival horizontal sides*/
+}
+.csspadding>h1:nth-child(3){
+    padding: 25px 50px 75px;/*apply for top horizontal bottom sides*/
+}
+.csspadding>h1:nth-child(4){
+    padding: 25px 50px 25px 50px;/*apply for all sides with different size*/
+}
+/*css border code*/
+.cssborder>h1{
+    padding: 20px;
+    background-color: pink;
+}
+.cssborder>h1:nth-child(1){
+    border: 5px solid; /*for all side*/
+}
+.cssborder>h1:nth-child(2){
+    border: 5px;
+    border-color: #fff blue  ;/*for vertical horizontal sides*/
+    border-style: dashed;
+}
+.cssborder>h1:nth-child(3){
+    border: 5px;
+    border-color: red blue black;/*for top horizontal botton sides*/
+    border-style: dotted;
+}
+.cssborder>h1:nth-child(4){
+    border: 5px;
+    border-color: black grey white green;/*apply for top right bottom and left*/
+    border-style: dotted;
+}
+/*css margin code*/
+.cssmargin>h1{
+    padding: 20px;
+    border-color:pink;
+}
+.cssmargin>h1:nth-child(1){
+    margin: 50px;/*apply for all sides*/
+}
+.cssmargin>h1:nth-child(2){
+    margin: 25px 75px;/*for vertical horizontal sides*/
+}
+.cssmargin>h1:nth-child(3){
+    margin: 25px 50px 75px;
+}
+.cssmargin>h1:nth-child(4){
+    margin: 25px 50px 75px 25px;
+}
+/*css boxmodel*/
+.cssboxmodel{
+    background-color: darkblue;
+    padding: 20px;
+    border: 5px dotted #fff;
+    margin: 30px;
+    color: black;
+}
+
+
+
+
